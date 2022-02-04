@@ -16,7 +16,7 @@ class user implements UserInterface
      */
     public function setRequest($request): void
     {
-        $this->request[] = $request;
+        $this->request = $request;
     }
 
     public function getRequest($request)
